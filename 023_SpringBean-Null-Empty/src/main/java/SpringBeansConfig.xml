@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<!--  <bean id="beanA" class="com.example.demo.A"></bean>
+	
+	
+	<bean id="beanB" class="com.example.demo.B" lazy-init="true" scope="singleton">
+			<constructor-arg ref="beanA" >
+			
+			
+			</constructor-arg>
+	
+	
+	</bean>
+	-->
+	
+	
+	<bean id="BeanPersonel" class="com.furkankara.Personel">
+		<property name="adi" value="Burak"/>
+		
+		<property name="soyadi" >
+			<value type="java.lang.String">Yilmaz</value>
+		</property>
+		
+		<property name="anneAdi" >
+			<value type="java.lang.String"></value>
+		</property>
+		
+		<property name="babaAdi" value=""/>
+		
+		<property name="adres">
+			<value></value>
+		</property>
+		
+		<property name="dogumYili" value="1989"></property>
+		
+		<property name="ehliyet" value="false"></property>
+		
+		<property name="maasi" value="5000"></property>
+		
+		<property name="medeniHali" value="true"></property>
+		
+		<property name="telNo">
+			<null></null>
+		</property>
+		
+		
+	</bean>
+</beans>
